@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>wwPVA web App Rev.2024-01</title>
+	<link href="styles/style.css" rel="stylesheet" />
+
+  </head>
+  <body>
+	<h1>Wire Wound Pressure Vessel Analysis</h1>
+	
+	<h2>Pressure Vessel</h2>
+
+	<p>
+		<img src="images/vessel.jpg" alt="My test image" />
+	</p>
+    
+	<!-- Comment here -->
+	<p>
+		Text here	
+	</p>
+
+	<h3>Design Input Parameters</h3>
+
+	<h4>Inner Cylinder:</h4> 
+
+	<table>
+		<tr>
+		  <th colspan="2">Design Parameter</th>
+		  <th>Value</th>
+		  <th>Unit</th>
+		</tr>
+		<tr>
+		  <td>Material</td>
+		  <td colspan="3">SA-723 Grade2 Class2</td>
+		</tr>
+		<tr>
+			<td><var>S<sub>y,liner</sub></var></td>
+			<td>Yield Strength</td>
+			<td align="right">120</td>
+			<td>ksi</td>
+		</tr>
+		<tr>
+			<td><var>S<sub>u,liner</sub></var></td>
+			<td>Tensile Strength</td>
+			<td align="right">135</td>
+			<td>ksi</td>
+		 </tr>
+		 <tr>
+			<td><var>E<sub>liner</sub></var></td>
+			<td>Modulus of Elasticity</td>
+			<td align="right">27800</td>
+			<td>ksi</td>
+		 </tr>
+		 <tr>
+			<td><var>&nu;<sub>liner</sub></td>
+			<td>Poisson's Ratio</td>
+			<td align="right">0.3</td>
+			<td></td>
+		 </tr>
+		 <tr>
+			<td><var>D<sub>i</sub></var></td>
+			<td>Inner Diameter</td>
+			<td align="right">27800</td>
+			<td>ksi</td>
+		 </tr>
+		 <tr>
+			<td><var>D<sub>if</sub></var></td>
+			<td>Interface Diameter</td>
+			<td align="right">27800</td>
+			<td>ksi</td>
+		 </tr>
+	</table>
+
+	<p>At Mozilla, we're a global community of</p>
+
+	<h4>Wire Wrap:</h4>
+	<table>
+		<tr>
+		  <th colspan="2">Design Parameter</th>
+		  <th>Value</th>
+		  <th>Unit</th>
+		</tr>
+		<tr>
+		  <td>Material</td>
+		  <td colspan="3">SA-905 Class2</td>
+		</tr>
+		<tr>
+			<td><var>S<sub>y,wire</sub></var></td>
+			<td>Yield Strength</td>
+			<td align="right">210</td>
+			<td>ksi</td>
+		</tr>
+		<tr>
+			<td><var>S<sub>u,wire</sub></var></td>
+			<td>Tensile Strength</td>
+			<td align="right">246</td>
+			<td>ksi</td>
+		 </tr>
+		 <tr>
+			<td><var>N</var></td>
+			<td>Number of layers of wire</td>
+			<td align="right">60</td>
+			<td></td>
+		 </tr>
+	</table>
+
+	<h5>
+		Wire Winding Tension:
+	</h5>
+	<input id="loadWindingTension" type="button" value="Load from a File" />
+
+	<table>
+		<tr>
+			<th>Number of Layer</th>
+			<th>Winding Tension[ksi]</th>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>38.0</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>38.0</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>38.0</td>
+		</tr>	
+		<tr>
+			<td>4</td>
+			<td>38.0</td>
+		</tr>
+		<tr>
+			<td>5</td>
+			<td>38.0</td>
+		</tr>
+	</table>
+
+	<h3>Allowalble Design Pressure</h3>
+	
+	<a href="mailto:ezkim@kitech.re.kr, eungzu.kim@gmail.com">
+	Send Mail
+	</a>
+
+	 <script src="scripts/main.js"></script>
+  </body>
+</html>

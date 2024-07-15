@@ -1,0 +1,50 @@
+{
+ 'Unit':
+     {
+      'Length':     'in.',
+      'Pressure':   'ksi',
+      'Force':      'lbf'
+      },
+
+ 'Liner':
+     {
+      'Material Properties':
+          {
+              'Yield Strength':     120.0, 
+              'Tensile Strength':   135.0, 
+              'Elastic Modulus':  27800.0,
+              'Poisson Ratio':        0.3
+           },
+      'Geometry':
+          {
+              'Inner Diameter': 60.0,
+              'Outer Diameter': 0.0
+           }
+     },
+
+ 'Wire':
+     {
+      'Material Properties':
+          {
+              'Yield Strength':     210.0, 
+              'Tensile Strength':   246.0, 
+           },
+      'Geometry':
+          {
+              'Thickness': 0.059
+           }
+     },
+
+ 'Winding':
+     {
+      'Number of Layers':   0,
+      'Tension':            0.0,
+      },
+
+ 'Design':
+     {
+      'Design Pressure':            20.0,
+      'Max. Number of Iteration':   0,
+      'Optimization P. Cond.':      0.0
+      }
+}
