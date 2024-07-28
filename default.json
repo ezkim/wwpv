@@ -1,0 +1,52 @@
+{
+ "Unit":
+    { 
+        "System":   "Imperial",
+        "Length":   "in.",
+        "Force":    "lbf",
+        "Pressure": "ksi"
+    },
+
+ "Liner":
+     {
+      "Material Properties":
+          {
+              "Yield Strength":     120.0, 
+              "Tensile Strength":   135.0, 
+              "Elastic Modulus":  27800.0,
+              "Poisson Ratio":        0.3
+           },
+      "Geometry":
+          {
+              "Inner Diameter": 60.0,
+              "Outer Diameter": 68.0
+           }
+     },
+
+ "Wire":
+     {
+      "Material Properties":
+          {
+              "Yield Strength":     210.0, 
+              "Tensile Strength":   246.0 
+           },
+      "Geometry":
+          {
+              "Thickness": 0.059
+           }
+     },
+
+ "Winding":
+     {
+      "Number of Layers":   60,
+      "Type":               "Constant",
+      "Tension":            [38.0]
+      },
+
+ "Design":
+     {
+      "Design Pressure":            20.0,
+      "Optimization P. Cond.":      128.0,
+      "Max. Number of Iteration":   50
+      }
+}
